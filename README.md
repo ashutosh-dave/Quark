@@ -1,3 +1,3 @@
 # Quark
 
-"My Quarky take on version control."
+*My Quarky take on version control.*
