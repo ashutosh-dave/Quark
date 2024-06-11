@@ -1,2 +1,3 @@
 # Quark
-The Git we have at home.
+
+** My quarky take on version control. **
