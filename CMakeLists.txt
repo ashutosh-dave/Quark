@@ -14,7 +14,27 @@ add_executable(quark
         src/repository.cpp
         src/tree.cpp
         src/utils.cpp
+        include/quark/utils.h
 )
 
 enable_testing()
 add_subdirectory(tests)
+
+# Add Google Test
+include(FetchContent)
+FetchContent_Declare(
+        googletest
+        URL https://github.com/google/googletest/archive/refs/tags/release-1.11.0.zip
+)
+FetchContent_MakeAvailable(googletest)
+
+add_executable(runTests
+        tests/blob_tests.cpp
+        tests/commit_tests.cpp
+        tests/utils_tests.cpp
+)
+
+target_link_libraries(runTests gtest gtest_main)
+
+include(GoogleTest)
+gtest_discover_tests(runTests)
