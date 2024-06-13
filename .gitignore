@@ -1,0 +1,88 @@
+# Build directories
+/build/
+/bin/
+/out/
+
+# CMake generated files
+CMakeFiles/
+/CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiled source files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.obj
+*.a
+*.lib
+*.lo
+*.slo
+
+# Debug files
+*.gch
+*.pch
+*.dSYM/
+*.ipch/
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.def
+*.exp
+
+# Shared objects
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Static Libraries
+*.lai
+*.la
+*.lo
+
+# Debug files
+*.gch
+*.pch
+
+# Generated files
+*.moc
+*.slo
+
+# Code coverage
+*.gcda
+*.gcno
+*.gcov
+
+# Other files and directories
+*.log
+*.pyc
+*.pyo
+*.pdb
+*.dir
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+.project
+.cproject
+.settings/
+
+# OS generated files
+.DS_Store
+Thumbs.db
